@@ -1,0 +1,10 @@
+.banner{
+    width: 100%;
+    
+}
+
+.carousel {
+    width: 1000px;
+    height: 200px;
+    overflow: hidden;
+}
