@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="vendas-produtos row" *ngFor="let cont of data_produtos.conteudo">
+
+    <h2>{{cont.titulo}}</h2>
+
+    <div class="produtos col" *ngFor="let item of cont.itens" style="width: 12rem;">
+      <div class="card conteudo-produto" style="width: 15rem;">
+        <img src="{{item.imagem}}" class="card-img-top rounded" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{item.titulo}}</h5>
+        </div>
+
+        <div class="card-body">
+          <a href="#" class="card-link">{{data_produtos.carrinho}}</a>
+          <a href="#" class="card-link">{{data_produtos.compre}}</a>
+        </div>
+      </div>
+    </div>
+
+    <br>
+  </div>
+</div>
