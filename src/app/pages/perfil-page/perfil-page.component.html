@@ -1,0 +1,10 @@
+<section class="container d-flex justify-content-center align-items-center flex-column">
+    <div *ngIf="user">
+        <img src="#" alt="">
+        <h1>Olá! {{user.email}}</h1>
+        <p>Seja bem vindo</p>
+    </div>
+    <div>
+        <button type="button" class="btn btn-primary" (click)="onLogOut()">Logout</button>
+    </div>
+</section>
