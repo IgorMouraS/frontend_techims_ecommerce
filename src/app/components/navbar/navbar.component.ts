@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { BOTOES } from '../../../data/data-btn-header';
 import { RouterLink } from '@angular/router';
 
 @Component({
@@ -12,5 +11,4 @@ import { RouterLink } from '@angular/router';
   styleUrl: './navbar.component.css'
 })
 export class NavbarComponent {
-  navBar = BOTOES;
 }

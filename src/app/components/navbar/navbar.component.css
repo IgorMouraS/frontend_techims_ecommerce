@@ -1,13 +1,43 @@
+.logo .title-logo{
+  font-size: 1.5rem;
+}
+
+.logo .span-logo{
+  color: rgb(224, 202, 1);
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
 .logo-tech{
-    width: 50px;
-    height: auto;
-    margin-right: 1rem;
+  width: 45px;
+  height: auto;
+  margin-right: 1rem;
 }
 
-form{
-     margin-left: 2rem;
+nav .itens-nav{
+  gap: 3rem;
+  margin-right: 3rem;
+  align-items: center; /* Alinha os itens verticalmente ao centro */
+  justify-content: center;
+
 }
 
-.profile{
-    margin-right: 2rem;
+ul{
+  gap: 1em;
+}
+
+form input{
+  width: 30rem;
+}
+
+hr{
+  margin: 0;
+
+}
+
+.active{
+  background-color: rgb(224, 202, 1);
+  color: white;
+  border-radius: 2rem;
+  padding: .5rem 1.4rem;
 }
