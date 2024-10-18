@@ -5,6 +5,7 @@ import { PagamentoPageComponent } from './pages/pagamento-page/pagamento-page.co
 import { ProdutosComponent } from './pages/produtos-page/produtos.component';
 import { ProdutoPageComponent } from './pages/produto-page/produto-page.component';
 import { PerfilPageComponent } from './pages/perfil-page/perfil-page.component';
+import { PromocoesComponent } from './pages/promocoes/promocoes.component';
 
 export const routes: Routes = [
     {
@@ -30,5 +31,9 @@ export const routes: Routes = [
     {
         path: "login",
         component: LoginPageComponent
+    },
+    {
+        path: "promocoes",
+        component: PromocoesComponent
     },
 ];

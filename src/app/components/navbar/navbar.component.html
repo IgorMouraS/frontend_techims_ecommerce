@@ -1,38 +1,41 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary container">
-  <div class="logo navbar">
-    <img src="../../../assets/tech-logo.png" class="logo-tech rounded" alt="">
-    <a class="navbar-brand title-logo" routerLink="/">TECH <span class="span-logo">IMS</span></a>
-  </div>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container">
 
-  <div class="collapse navbar-collapse itens-nav" id="navbarSupportedContent">
-    <div class="menu-itens">
+    <div class="logo navbar">
+      <img src="../../../assets/tech-logo.png" class="logo-tech rounded" alt="">
+      <a class="navbar-brand title-logo" routerLink="/">TECH <span class="span-logo">IMS</span></a>
+    </div>
 
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href=""><i class="fa-solid fa-bars"></i> Categorias</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/carrinho"><i class="fa-solid fa-fire-flame-curved"></i> Promoções</a>
-        </li>
-      </ul>
-    </div>
-    <div class="menu-itens">
-      <form class="d-flex pesquisa" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-      </form>
-    </div>
-    <div class="menu-itens">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link d-flex profile" routerLink="/perfil"><i class="fa-solid fa-heart"></i></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link d-flex profile" routerLink="/perfil"><i class="fa-solid fa-cart-shopping"></i></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link d-flex profile" routerLink="/perfil"><i class="fa-solid fa-user"></i></a>
-        </li>
-      </ul>
+    <div class="collapse navbar-collapse itens-nav d-flex align-items-end" id="navbarSupportedContent">
+      <div class="menu-itens">
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href=""><i class="fa-solid fa-bars"></i> Categorias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/promocoes"><i class="fa-solid fa-fire-flame-curved"></i> Promoções</a>
+          </li>
+        </ul>
+      </div>
+      <div class="menu-itens">
+        <form class="d-flex pesquisa" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        </form>
+      </div>
+      <div class="menu-itens">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link d-flex profile" routerLink="/perfil"><i class="fa-solid fa-heart"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link d-flex profile" routerLink="/perfil"><i class="fa-solid fa-cart-shopping"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link d-flex profile" routerLink="/perfil"><i class="fa-solid fa-user"></i></a>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </nav>
