@@ -1,0 +1,35 @@
+.conteudo {
+    background-color: #eeeeee;
+    width: 100%;
+    overflow: hidden;
+}
+
+p {
+    margin: 0;
+}
+
+.item {
+    flex: 0 0 auto;
+    width: auto;
+    margin-right: 7rem;
+}
+
+i.fa-truck {
+    color: #ff7e5f;
+}
+
+i.fa-money-bill-1-wave {
+    color: #0e810a;
+}
+
+i.fa-shield-halved {
+    color: #3c66c0;
+}
+
+i.fa-fire-flame-curved {
+    color: #ff7e5f;
+}
+
+i.fa-percent{
+    color: #000000;
+}

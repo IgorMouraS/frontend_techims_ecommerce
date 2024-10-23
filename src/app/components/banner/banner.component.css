@@ -1,5 +1,35 @@
+*{
+  padding: 0;
+  margin: 0;
+}
 
 .custom-height {
   width: 100%;
   height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 10px;
+}
+
+.bg-gradient-custom{
+  background: linear-gradient(to right, #ff7e5f, #feca7b);
+}
+
+.bg-gradient-custom-warning{
+  background: linear-gradient(to right, #ffbf5f, #fee67b);
+}
+
+.bg-gradient-custom-success{
+  background: linear-gradient(to right, #0e810a, #3cc047);
+}
+
+.bg-gradient-custom-primary{
+  background: linear-gradient(to right, #11497c, #3c66c0);
+}
+
+.col {
+  overflow: hidden; /* Adicione isso se necessário */
 }

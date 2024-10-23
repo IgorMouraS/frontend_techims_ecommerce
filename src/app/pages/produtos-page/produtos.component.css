@@ -1,14 +1,19 @@
+.conteudo{
+    padding-inline: 3rem;
+}
 
 .banner{
     height: 400px;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.137);
-    padding: 1rem;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
 }
 
-.container{
-    margin-top: 1rem;
-    padding: 0;
+.barra-info,
+.categoria,
+.itens-promocao{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .carousel {
@@ -16,3 +21,4 @@
     height: 200px;
     overflow: hidden;
 }
+

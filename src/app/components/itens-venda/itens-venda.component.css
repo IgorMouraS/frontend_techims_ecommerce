@@ -1,0 +1,32 @@
+.conteudo {
+    width: 100%;
+    overflow: hidden;
+}
+
+.title {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.bloco {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.bloco-item{
+    background-color: #eeeeee;
+    width: 250px;
+    height: 250px;
+}
+
+img {
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+}
+
+h5 {
+    margin: 0;
+}

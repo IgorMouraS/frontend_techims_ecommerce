@@ -1,0 +1,60 @@
+.conteudo {
+    width: 100%;
+    overflow: hidden;
+}
+
+h3 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 4%;
+}
+
+.bloco {
+    width: 100%;
+    position: relative;
+}
+
+.bloco-categoria {
+    display: flex;
+    overflow-x: hidden;
+    gap: 2rem;
+    width: 90%;
+}
+
+.bloco-img {
+    background-color: #eeeeee;
+    width: 200px;
+    height: 200px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+h5 {
+    margin: 0;
+}
+
+.bloco-seta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.bloco-seta p {
+    margin: 0;
+}
+
+.bloco-seta i {
+    font-size: 2rem;
+    cursor: pointer;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.bloco-seta:hover i {
+    color: #000;
+}
